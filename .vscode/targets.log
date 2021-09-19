@@ -1,0 +1,2157 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe SUBPROJECTS= CONF=default build
+ 
+# make.exe[1]: Entering directory 'd:/codigos de videos actuales en github/Servo.X'
+make.exe -f nbproject/Makefile-default.mk SUBPROJECTS= .build-conf
+ 
+# make.exe[2]: Entering directory 'd:/codigos de videos actuales en github/Servo.X'
+ 
+process_begin: CreateProcess(NULL, mplabwildcard build/default/production/Servos.p1.d, ...) failed.
+make.exe[2]: nbproject/Makefile-default.mk:147: pipe: No error
+ 
+make.exe  -f nbproject/Makefile-default.mk dist/default/production/Servo.X.production.hex
+ 
+# make.exe[3]: Entering directory 'd:/codigos de videos actuales en github/Servo.X'
+ 
+process_begin: CreateProcess(NULL, mplabwildcard build/default/production/Servos.p1.d, ...) failed.
+make.exe[3]: nbproject/Makefile-default.mk:147: pipe: No error
+ 
+# GNU Make 4.2.1
+# Built for Windows32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep 19 17:04:40 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.3.3
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/codigos de videos actuales en github/Servo.X
+# makefile (from 'nbproject/Makefile-local-default.mk', line 17)
+SHELL = cmd.exe
+# makefile (from 'nbproject/Makefile-default.mk', line 23)
+RM = rm -f 
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'nbproject/Makefile-default.mk', line 86)
+MP_PROCESSOR_OPTION = 16F1938
+# environment
+PYCHARM COMMUNITY EDITION = D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# makefile (from 'nbproject/Makefile-default.mk', line 58)
+POSSIBLE_DEPFILES = ${OBJECTDIR}/Servos.p1.d
+# environment
+ONEDRIVE = C:\Users\nooee\OneDrive
+# makefile (from 'nbproject/Makefile-local-default.mk', line 35)
+MP_LD_DIR = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin"
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile (from 'nbproject/Makefile-local-default.mk', line 1)
+MAKEFILE_LIST :=  nbproject/Makefile-default.mk Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk nbproject/Makefile-local-default.mk
+# makefile (from 'nbproject/Makefile-default.mk', line 25)
+CP = cp 
+# environment
+TMP = C:\Users\nooee\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-default.mk', line 146)
+DEPFILES = $(shell mplabwildcard ${POSSIBLE_DEPFILES})
+# makefile (from 'nbproject/Makefile-variables.mk', line 11)
+CND_PACKAGE_DIR_default = ${CND_DISTDIR}/default/package
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# command line
+CONF = default
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+PROGRAMDATA = C:\ProgramData
+# makefile (from 'nbproject/Makefile-default.mk', line 38)
+FINAL_IMAGE = dist/${CND_CONF}/${IMAGE_TYPE}/Servo.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bef1ecfe-6a70-4a45-89bd-c428205a25c4-sock
+# environment
+VSCODE_CWD = D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := Windows32
+# environment
+NO_PROXY = 127.0.0.1
+# makefile (from 'nbproject/Makefile-default.mk', line 44)
+COMPARISON_BUILD = 
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# makefile (from 'nbproject/Makefile-default.mk', line 67)
+CFLAGS = 
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\nooee
+# environment
+OPENOCD = D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\openocd.exe
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'nbproject/Makefile-local-default.mk', line 28)
+MP_LD = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin\xc8.exe"
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
+# makefile (from 'nbproject/Makefile-local-default.mk', line 30)
+DEP_GEN = ${MP_JAVA_PATH}java -jar "C:/Program Files (x86)/Microchip/MPLABX/v3.50/mplab_ide/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3508_LUQCYFESBRGZSVWE
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-local-default.mk', line 24)
+MP_CC = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin\xc8.exe"
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/Servo.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-CV27BN7
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# makefile (from 'nbproject/Makefile-default.mk', line 61)
+OBJECTFILES = ${OBJECTDIR}/Servos.p1
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = nooee
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\nooee\AppData\Roaming\Code\CachedData\83bd43bc519d15e50c4272c6cf5c1479df196a4d
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-CV27BN7
+# automatic
++F = $(notdir $+)
+# makefile (from 'nbproject/Makefile-default.mk', line 78)
+FIXDEPS = fixDeps
+# environment
+ONEDRIVECONSUMER = C:\Users\nooee\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-CV27BN7
+# makefile (from 'nbproject/Makefile-default.mk', line 22)
+MKDIR = gnumkdir -p
+# makefile (from 'nbproject/Makefile-default.mk', line 51)
+DISTDIR = dist/${CND_CONF}/${IMAGE_TYPE}
+# environment
+MAKELEVEL := 3
+# environment
+PLATFORMIO_PATH = C:\.platformio\python3;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := dist/default/production/Servo.X.production.hex
+# makefile (from 'nbproject/Makefile-local-default.mk', line 20)
+PATH := C:/Program Files (x86)/Microchip/MPLABX/v3.50/mplab_ide/platform/../mplab_ide/modules/../../bin/:C:/Program Files (x86)/Microchip/MPLABX/v3.50/mplab_ide/platform/../mplab_ide/modules/../../bin/;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# makefile (from 'nbproject/Makefile-default.mk', line 36)
+OUTPUT_SUFFIX = hex
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# makefile (from 'nbproject/Makefile-default.mk', line 68)
+ASFLAGS = 
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := build
+# makefile (from 'nbproject/Makefile-local-default.mk', line 34)
+MP_AS_DIR = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin"
+# makefile (from 'nbproject/Makefile-local-default.mk', line 23)
+OS_CURRENT = "$(shell uname -s)"
+# makefile (from 'nbproject/Makefile-default.mk', line 35)
+IMAGE_TYPE = production
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\nooee\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'nbproject/Makefile-variables.mk', line 13)
+CND_PACKAGE_PATH_default = ${CND_DISTDIR}/default/package/servo.x.tar
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b1664bb31467117dec182a22893e68cf-1.60.1-main-sock
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = Servo.X.production.hex
+# environment
+HOMEPATH = \Users\nooee
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+IDF_PATH = D:\Users\nooee\Desktop\esp-idf
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
+-*-command-variables-*- := CONF=default SUBPROJECTS=
+# environment
+APPDATA = C:\Users\nooee\AppData\Roaming
+# environment
+TEMP = C:\Users\nooee\AppData\Local\Temp
+# makefile (from 'nbproject/Makefile-default.mk', line 37)
+DEBUGGABLE_SUFFIX = elf
+# makefile (from 'nbproject/Makefile-local-default.mk', line 22)
+MP_JAVA_PATH = "C:\Program Files (x86)\Microchip\MPLABX\v3.50\sys\java\jre1.8.0_91/bin/"
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# makefile (from 'nbproject/Makefile-default.mk', line 54)
+SOURCEFILES_QUOTED_IF_SPACED = Servos.c
+# 'override' directive
+.SHELLSTATUS := 127
+# default
+MAKEFILES := 
+# environment
+IDF_TOOLS_PATH = D:\Users\nooee\.espressif
+# makefile (from 'nbproject/Makefile-default.mk', line 57)
+OBJECTFILES_QUOTED_IF_SPACED = ${OBJECTDIR}/Servos.p1
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from 'nbproject/Makefile-default.mk', line 69)
+LDLIBSOPTIONS = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = Servo.X
+# makefile (from 'nbproject/Makefile-default.mk', line 64)
+SOURCEFILES = Servos.c
+# makefile (from 'nbproject/Makefile-local-default.mk', line 27)
+MP_AS = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin\xc8.exe"
+# environment
+LC_ALL = C
+# makefile (from 'nbproject/Makefile-local-default.mk', line 18)
+PATH_TO_IDE_BIN = C:/Program Files (x86)/Microchip/MPLABX/v3.50/mplab_ide/platform/../mplab_ide/modules/../../bin/
+# makefile (from 'nbproject/Makefile-default.mk', line 48)
+OBJECTDIR = build/${CND_CONF}/${IMAGE_TYPE}
+# automatic
+^F = $(notdir $^)
+# makefile (from 'nbproject/Makefile-local-default.mk', line 31)
+MP_CC_DIR = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin"
+# makefile (from 'nbproject/Makefile-default.mk', line 24)
+MV = mv 
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'nbproject/Makefile-default.mk', line 28)
+CND_CONF = default
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0a
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# default
+.INCLUDE_DIRS = .
+# command line
+SUBPROJECTS = 
+# environment
+QTOOLS = D:\qp\qtools
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# makefile (from 'nbproject/Makefile-variables.mk', line 12)
+CND_PACKAGE_NAME_default = servo.x.tar
+# environment
+VSCODE_PID = 3508
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-CV27BN7
+# variable set hash-table stats:
+# Load=159/1024=16%, Rehash=0, Collisions=42/236=18%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-local-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.build-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-conf: .clean-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 140):
+	${RM} -r build/default
+	${RM} -r dist/default
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:34
+#  File has been updated.
+#  Successfully updated.
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dist/default/production/Servo.X.production.hex: build/default/production/Servos.p1 nbproject/Makefile-default.mk
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Last modified 2017-12-30 13:03:18
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 125):
+	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
+	${MP_CC} $(MP_EXTRA_LD_PRE) --chip=$(MP_PROCESSOR_OPTION) -G -mdist/${CND_CONF}/${IMAGE_TYPE}/Servo.X.${IMAGE_TYPE}.map  --double=24 --float=24 --opt=+asm,+asmfile,-speed,+space,-debug --addrqual=ignore --mode=free -P -N255 --warn=-3 --asmlist -DXPRJ_default=$(CND_CONF)  --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-osccal,-resetbits,-download,-stackcall,+clib --output=-mcof,+elf:multilocs --stack=compiled:auto:auto "--errformat=%f:%l: error: (%n) %s" "--warnformat=%f:%l: warning: (%n) %s" "--msgformat=%f:%l: advisory: (%n) %s"     $(COMPARISON_BUILD) --memorysummary dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -odist/${CND_CONF}/${IMAGE_TYPE}/Servo.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	
+
+# Not a target:
+Servos.c:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 13:03:15
+#  File has been updated.
+#  Successfully updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.clean-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-conf: .build-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 84):
+	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/Servo.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+build/default/production/Servos.p1: Servos.c nbproject/Makefile-default.mk
+#  Implicit rule search has not been done.
+#  Last modified 2017-12-30 13:03:16
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 100):
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/Servos.p1.d 
+	@${RM} ${OBJECTDIR}/Servos.p1 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G  --double=24 --float=24 --opt=+asm,+asmfile,-speed,+space,-debug --addrqual=ignore --mode=free -P -N255 --warn=-3 --asmlist -DXPRJ_default=$(CND_CONF)  --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-osccal,-resetbits,-download,-stackcall,+clib $(COMPARISON_BUILD)  --output=-mcof,+elf:multilocs --stack=compiled:auto:auto "--errformat=%f:%l: error: (%n) %s" "--warnformat=%f:%l: warning: (%n) %s" "--msgformat=%f:%l: advisory: (%n) %s"    -o${OBJECTDIR}/Servos.p1  Servos.c 
+	@-${MV} ${OBJECTDIR}/Servos.d ${OBJECTDIR}/Servos.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/Servos.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+
+.dep.inc: .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=36/1024=4%, Rehash=0, Collisions=0/85=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 533 B / avg = 14 B
+# current buf: size = 8162 B / used = 533 B / count = 37 / avg = 14 B
+
+# strcache performance: lookups = 92 / hit rate = 59%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=0/92=0%
+# Finished Make data base on Sun Sep 19 17:04:40 2021
+
+# make.exe[3]: Leaving directory 'd:/codigos de videos actuales en github/Servo.X'
+ 
+# GNU Make 4.2.1
+# Built for Windows32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep 19 17:04:40 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.3.3
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/codigos de videos actuales en github/Servo.X
+# makefile (from 'nbproject/Makefile-local-default.mk', line 17)
+SHELL = cmd.exe
+# makefile (from 'nbproject/Makefile-default.mk', line 23)
+RM = rm -f 
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'nbproject/Makefile-default.mk', line 86)
+MP_PROCESSOR_OPTION = 16F1938
+# environment
+PYCHARM COMMUNITY EDITION = D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# makefile (from 'nbproject/Makefile-default.mk', line 58)
+POSSIBLE_DEPFILES = ${OBJECTDIR}/Servos.p1.d
+# environment
+ONEDRIVE = C:\Users\nooee\OneDrive
+# makefile (from 'nbproject/Makefile-local-default.mk', line 35)
+MP_LD_DIR = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin"
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile (from 'nbproject/Makefile-local-default.mk', line 1)
+MAKEFILE_LIST :=  nbproject/Makefile-default.mk Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk nbproject/Makefile-local-default.mk
+# makefile (from 'nbproject/Makefile-default.mk', line 25)
+CP = cp 
+# environment
+TMP = C:\Users\nooee\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-default.mk', line 146)
+DEPFILES = $(shell mplabwildcard ${POSSIBLE_DEPFILES})
+# makefile (from 'nbproject/Makefile-variables.mk', line 11)
+CND_PACKAGE_DIR_default = ${CND_DISTDIR}/default/package
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# command line
+CONF = default
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+PROGRAMDATA = C:\ProgramData
+# makefile (from 'nbproject/Makefile-default.mk', line 38)
+FINAL_IMAGE = dist/${CND_CONF}/${IMAGE_TYPE}/Servo.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bef1ecfe-6a70-4a45-89bd-c428205a25c4-sock
+# environment
+VSCODE_CWD = D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := Windows32
+# environment
+NO_PROXY = 127.0.0.1
+# makefile (from 'nbproject/Makefile-default.mk', line 44)
+COMPARISON_BUILD = 
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# makefile (from 'nbproject/Makefile-default.mk', line 67)
+CFLAGS = 
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\nooee
+# environment
+OPENOCD = D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\openocd.exe
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'nbproject/Makefile-local-default.mk', line 28)
+MP_LD = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin\xc8.exe"
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
+# makefile (from 'nbproject/Makefile-local-default.mk', line 30)
+DEP_GEN = ${MP_JAVA_PATH}java -jar "C:/Program Files (x86)/Microchip/MPLABX/v3.50/mplab_ide/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3508_LUQCYFESBRGZSVWE
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-local-default.mk', line 24)
+MP_CC = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin\xc8.exe"
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/Servo.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-CV27BN7
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# makefile (from 'nbproject/Makefile-default.mk', line 61)
+OBJECTFILES = ${OBJECTDIR}/Servos.p1
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = nooee
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\nooee\AppData\Roaming\Code\CachedData\83bd43bc519d15e50c4272c6cf5c1479df196a4d
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-CV27BN7
+# automatic
++F = $(notdir $+)
+# makefile (from 'nbproject/Makefile-default.mk', line 78)
+FIXDEPS = fixDeps
+# environment
+ONEDRIVECONSUMER = C:\Users\nooee\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-CV27BN7
+# makefile (from 'nbproject/Makefile-default.mk', line 22)
+MKDIR = gnumkdir -p
+# makefile (from 'nbproject/Makefile-default.mk', line 51)
+DISTDIR = dist/${CND_CONF}/${IMAGE_TYPE}
+# environment
+MAKELEVEL := 2
+# environment
+PLATFORMIO_PATH = C:\.platformio\python3;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := .build-conf
+# makefile (from 'nbproject/Makefile-local-default.mk', line 20)
+PATH := C:/Program Files (x86)/Microchip/MPLABX/v3.50/mplab_ide/platform/../mplab_ide/modules/../../bin/;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# makefile (from 'nbproject/Makefile-default.mk', line 36)
+OUTPUT_SUFFIX = hex
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# makefile (from 'nbproject/Makefile-default.mk', line 68)
+ASFLAGS = 
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := build
+# makefile (from 'nbproject/Makefile-local-default.mk', line 34)
+MP_AS_DIR = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin"
+# makefile (from 'nbproject/Makefile-local-default.mk', line 23)
+OS_CURRENT = "$(shell uname -s)"
+# makefile (from 'nbproject/Makefile-default.mk', line 35)
+IMAGE_TYPE = production
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\nooee\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'nbproject/Makefile-variables.mk', line 13)
+CND_PACKAGE_PATH_default = ${CND_DISTDIR}/default/package/servo.x.tar
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b1664bb31467117dec182a22893e68cf-1.60.1-main-sock
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = Servo.X.production.hex
+# environment
+HOMEPATH = \Users\nooee
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+IDF_PATH = D:\Users\nooee\Desktop\esp-idf
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(pat 
+subst %\,%,$(dir $+)))
+# automatic
+-*-command-variables-*- := SUBPROJECTS= CONF=default
+# environment
+APPDATA = C:\Users\nooee\AppData\Roaming
+# environment
+TEMP = C:\Users\nooee\AppData\Local\Temp
+# makefile (from 'nbproject/Makefile-default.mk', line 37)
+DEBUGGABLE_SUFFIX = elf
+# makefile (from 'nbproject/Makefile-local-default.mk', line 22)
+MP_JAVA_PATH = "C:\Program Files (x86)\Microchip\MPLABX\v3.50\sys\java\jre1.8.0_91/bin/"
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# makefile (from 'nbproject/Makefile-default.mk', line 54)
+SOURCEFILES_QUOTED_IF_SPACED = Servos.c
+# 'override' directive
+.SHELLSTATUS := 127
+# default
+MAKEFILES := 
+# environment
+IDF_TOOLS_PATH = D:\Users\nooee\.espressif
+# makefile (from 'nbproject/Makefile-default.mk', line 57)
+OBJECTFILES_QUOTED_IF_SPACED = ${OBJECTDIR}/Servos.p1
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from 'nbproject/Makefile-default.mk', line 69)
+LDLIBSOPTIONS = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = Servo.X
+# makefile (from 'nbproject/Makefile-default.mk', line 64)
+SOURCEFILES = Servos.c
+# makefile (from 'nbproject/Makefile-local-default.mk', line 27)
+MP_AS = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin\xc8.exe"
+# environment
+LC_ALL = C
+# makefile (from 'nbproject/Makefile-local-default.mk', line 18)
+PATH_TO_IDE_BIN = C:/Program Files (x86)/Microchip/MPLABX/v3.50/mplab_ide/platform/../mplab_ide/modules/../../bin/
+# makefile (from 'nbproject/Makefile-default.mk', line 48)
+OBJECTDIR = build/${CND_CONF}/${IMAGE_TYPE}
+# automatic
+^F = $(notdir $^)
+# makefile (from 'nbproject/Makefile-local-default.mk', line 31)
+MP_CC_DIR = "C:\Program Files (x86)\Microchip\xc8\v1.40\bin"
+# makefile (from 'nbproject/Makefile-default.mk', line 24)
+MV = mv 
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'nbproject/Makefile-default.mk', line 28)
+CND_CONF = default
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0a
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# default
+.INCLUDE_DIRS = .
+# command line
+SUBPROJECTS = 
+# environment
+QTOOLS = D:\qp\qtools
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# makefile (from 'nbproject/Makefile-variables.mk', line 12)
+CND_PACKAGE_NAME_default = servo.x.tar
+# environment
+VSCODE_PID = 3508
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-CV27BN7
+# variable set hash-table stats:
+# Load=159/1024=16%, Rehash=0, Collisions=47/249=19%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-local-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.build-subprojects:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-conf: .clean-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 140):
+	${RM} -r build/default
+	${RM} -r dist/default
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:34
+#  File has been updated.
+#  Successfully updated.
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dist/default/production/Servo.X.production.hex: build/default/production/Servos.p1 nbproject/Makefile-default.mk
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 125):
+	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
+	${MP_CC} $(MP_EXTRA_LD_PRE) --chip=$(MP_PROCESSOR_OPTION) -G -mdist/${CND_CONF}/${IMAGE_TYPE}/Servo.X.${IMAGE_TYPE}.map  --double=24 --float=24 --opt=+asm,+asmfile,-speed,+space,-debug --addrqual=ignore --mode=free -P -N255 --warn=-3 --asmlist -DXPRJ_default=$(CND_CONF)  --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-osccal,-resetbits,-download,-stackcall,+clib --output=-mcof,+elf:multilocs --stack=compiled:auto:auto "--errformat=%f:%l: error: (%n) %s" "--warnformat=%f:%l: warning: (%n) %s" "--msgformat=%f:%l: advisory: (%n) %s"     $(COMPARISON_BUILD) --memorysummary dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -odist/${CND_CONF}/${IMAGE_TYPE}/Servo.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	
+
+# Not a target:
+Servos.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.clean-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-conf: .build-subprojects
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := .build-conf
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := .build-subprojects
+# automatic
+# | := 
+# automatic
+# < := .build-subprojects
+# automatic
+# ^ := .build-subprojects
+# automatic
+# ? := .build-subprojects
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/19=16%
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 84):
+	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/Servo.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+build/default/production/Servos.p1: Servos.c nbproject/Makefile-default.mk
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 100):
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/Servos.p1.d 
+	@${RM} ${OBJECTDIR}/Servos.p1 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G  --double=24 --float=24 --opt=+asm,+asmfile,-speed,+space,-debug --addrqual=ignore --mode=free -P -N255 --warn=-3 --asmlist -DXPRJ_default=$(CND_CONF)  --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-osccal,-resetbits,-download,-stackcall,+clib $(COMPARISON_BUILD)  --output=-mcof,+elf:multilocs --stack=compiled:auto:auto "--errformat=%f:%l: error: (%n) %s" "--warnformat=%f:%l: warning: (%n) %s" "--msgformat=%f:%l: advisory: (%n) %s"    -o${OBJECTDIR}/Servos.p1  Servos.c 
+	@-${MV} ${OBJECTDIR}/Servos.d ${OBJECTDIR}/Servos.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/Servos.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+
+.dep.inc: .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=36/1024=4%, Rehash=0, Collisions=0/86=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 533 B / avg = 14 B
+# current buf: size = 8162 B / used = 533 B / count = 37 / avg = 14 B
+
+# strcache performance: lookups = 93 / hit rate = 60%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=0/93=0%
+# Finished Make data base on Sun Sep 19 17:04:40 2021
+
+# make.exe[2]: Leaving directory 'd:/codigos de videos actuales en github/Servo.X'
+ 
+# GNU Make 4.2.1
+# Built for Windows32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep 19 17:04:40 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.3.3
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/codigos de videos actuales en github/Servo.X
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# environment
+ONEDRIVE = C:\Users\nooee\OneDrive
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile (from 'nbproject/Makefile-variables.mk', line 1)
+MAKEFILE_LIST :=  Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk
+# makefile (from 'Makefile', line 48)
+CP = cp
+# environment
+TMP = C:\Users\nooee\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-variables.mk', line 11)
+CND_PACKAGE_DIR_default = ${CND_DISTDIR}/default/package
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# command line
+CONF = default
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bef1ecfe-6a70-4a45-89bd-c428205a25c4-sock
+# environment
+VSCODE_CWD = D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := Windows32
+# environment
+NO_PROXY = 127.0.0.1
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\nooee
+# environment
+OPENOCD = D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\openocd.exe
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3508_LUQCYFESBRGZSVWE
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/Servo.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-CV27BN7
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = nooee
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\nooee\AppData\Roaming\Code\CachedData\83bd43bc519d15e50c4272c6cf5c1479df196a4d
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-CV27BN7
+# automatic
++F = $(notdir $+)
+# environment
+ONEDRIVECONSUMER = C:\Users\nooee\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-CV27BN7
+# makefile (from 'Makefile', line 47)
+MKDIR = mkdir
+# environment
+MAKELEVEL := 1
+# environment
+PLATFORMIO_PATH = C:\.platformio\python3;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := build
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := build
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\nooee\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'nbproject/Makefile-variables.mk', line 13)
+CND_PACKAGE_PATH_default = ${CND_DISTDIR}/default/package/servo.x.tar
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b1664bb31467117dec182a22893e68cf-1.60.1-main-sock
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = Servo.X.production.hex
+# environment
+HOMEPATH = \Users\nooee
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+IDF_PATH = D:\Users\nooee\Desktop\esp-idf
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
+-*-command-variables-*- := CONF=default SUBPROJECTS=
+# environment
+APPDATA = C:\Users\nooee\AppData\Roaming
+# environment
+TEMP = C:\Users\nooee\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+IDF_TOOLS_PATH = D:\Users\nooee\.espressif
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = Servo.X
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0a
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# default
+.INCLUDE_DIRS = .
+# command line
+SUBPROJECTS = 
+# environment
+QTOOLS = D:\qp\qtools
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# makefile (from 'nbproject/Makefile-variables.mk', line 12)
+CND_PACKAGE_NAME_default = servo.x.tar
+# environment
+VSCODE_PID = 3508
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-CV27BN7
+# variable set hash-table stats:
+# Load=127/1024=12%, Rehash=0, Collisions=31/168=18%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/codigos de videos actuales en github/Servo.X, mtime 1632089049): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := .build-impl
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := .build-pre
+# automatic
+# | := 
+# automatic
+# < := .build-pre
+# automatic
+# ^ := .build-pre
+# automatic
+# ? := .build-pre
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/17=12%
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-post: .build-impl
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:34
+#  File has been updated.
+#  Successfully updated.
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Command line target.
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 13:03:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=0/66=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 34 / storage = 351 B / avg = 10 B
+# current buf: size = 8162 B / used = 351 B / count = 34 / avg = 10 B
+
+# strcache performance: lookups = 78 / hit rate = 56%
+# hash-table stats:
+# Load=34/8192=0%, Rehash=0, Collisions=1/78=1%
+# Finished Make data base on Sun Sep 19 17:04:40 2021
+
+# make.exe[1]: Leaving directory 'd:/codigos de videos actuales en github/Servo.X'
+ 
+# GNU Make 4.2.1
+# Built for Windows32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep 19 17:04:40 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.3.3
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/codigos de videos actuales en github/Servo.X
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# environment
+ONEDRIVE = C:\Users\nooee\OneDrive
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile (from 'nbproject/Makefile-variables.mk', line 1)
+MAKEFILE_LIST :=  Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk
+# makefile (from 'Makefile', line 48)
+CP = cp
+# environment
+TMP = C:\Users\nooee\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-variables.mk', line 11)
+CND_PACKAGE_DIR_default = ${CND_DISTDIR}/default/package
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# makefile (from 'nbproject/Makefile-impl.mk', line 31)
+CONF = ${DEFAULTCONF}
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bef1ecfe-6a70-4a45-89bd-c428205a25c4-sock
+# environment
+VSCODE_CWD = D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := Windows32
+# environment
+NO_PROXY = 127.0.0.1
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\nooee
+# environment
+OPENOCD = D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\openocd.exe
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3508_LUQCYFESBRGZSVWE
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/Servo.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-CV27BN7
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = nooee
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\nooee\AppData\Roaming\Code\CachedData\83bd43bc519d15e50c4272c6cf5c1479df196a4d
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-CV27BN7
+# environment
+ONEDRIVECONSUMER = C:\Users\nooee\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-CV27BN7
+# makefile (from 'Makefile', line 47)
+MKDIR = mkdir
+# environment
+MAKELEVEL := 0
+# environment
+PLATFORMIO_PATH = C:\.platformio\python3;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\qp\qtools\mingw32\bin;D:\qp\qtools\bin;D:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\CMake\bin;D:\Program Files\Microchip\xc8\v2.32\bin;D:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\PuTTY\;C:\Ruby30-x64\bin;C:\Users\nooee\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\nooee\AppData\Local\Programs\Python\Python36\;D:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\nooee\AppData\Local\Microsoft\WindowsApps;D:\Users\nooee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nooee\.dotnet\tools;D:\Users\nooee\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin;C:\Windows\System32\cmd.exe;D:\FW utilidades\openocd-20210729\OpenOCD-20210729-0.11.0\bin\;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := build
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\nooee\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'nbproject/Makefile-variables.mk', line 13)
+CND_PACKAGE_PATH_default = ${CND_DISTDIR}/default/package/servo.x.tar
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b1664bb31467117dec182a22893e68cf-1.60.1-main-sock
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = Servo.X.production.hex
+# environment
+HOMEPATH = \Users\nooee
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+IDF_PATH = D:\Users\nooee\Desktop\esp-idf
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\nooee\AppData\Roaming
+# environment
+TEMP = C:\Users\nooee\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+IDF_TOOLS_PATH = D:\Users\nooee\.espressif
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = Servo.X
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0a
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# default
+.INCLUDE_DIRS = .
+# makefile (from 'nbproject/Makefile-impl.mk', line 17)
+SUBPROJECTS = ${SUB_${SUB}}
+# environment
+QTOOLS = D:\qp\qtools
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# makefile (from 'nbproject/Makefile-variables.mk', line 12)
+CND_PACKAGE_NAME_default = servo.x.tar
+# environment
+VSCODE_PID = 3508
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-CV27BN7
+# variable set hash-table stats:
+# Load=125/1024=12%, Rehash=0, Collisions=25/160=16%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/codigos de videos actuales en github/Servo.X, mtime 1632089049): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+.all-pre:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:34
+#  File has been updated.
+#  Successfully updated.
+
+.depcheck-impl:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2017-12-30 12:44:46
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := .all-impl
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := .all-pre .depcheck-impl
+# automatic
+# | := 
+# automatic
+# < := .all-pre
+# automatic
+# ^ := .all-pre .depcheck-impl
+# automatic
+# ? := .all-pre .depcheck-impl
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/16=13%
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+.all-post: .all-impl
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=0/66=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 34 / storage = 351 B / avg = 10 B
+# current buf: size = 8162 B / used = 351 B / count = 34 / avg = 10 B
+
+# strcache performance: lookups = 78 / hit rate = 56%
+# hash-table stats:
+# Load=34/8192=0%, Rehash=0, Collisions=1/78=1%
+# Finished Make data base on Sun Sep 19 17:04:40 2021
+
+ 
